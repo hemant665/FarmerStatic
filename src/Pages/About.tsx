@@ -9,7 +9,8 @@ import AboutImg from "../assets/Images/AboutImg.webp";
 
 const About = () => {
   return (
-    <div className="grid md:grid-cols-2 mt-20 p-5">
+    <div className="max-w-[87rem] mx-auto">
+      <div className="grid md:grid-cols-2 mt-20 p-5">
       <div className="p-3 flex flex-col gap-5">
         <p className="flex items-center gap-1">
           <BiSolidLeaf className="text-[#9EC63C] text-2xl" /> About the Company
@@ -67,6 +68,8 @@ const About = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 };
 

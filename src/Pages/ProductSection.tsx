@@ -28,7 +28,8 @@ const vegesArray = [
 
 const ProductSection = () => {
   return (
-    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
+    <div className="max-w-[87rem] mx-auto mt-15">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
       {vegesArray.map((veg, index) => (
         <div key={index} className="flex flex-col gap-2 group p-2">
           <div className="relative">
@@ -48,6 +49,8 @@ const ProductSection = () => {
         </div>
       ))}
     </div>
+    </div>
+    
   );
 };
 

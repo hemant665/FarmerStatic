@@ -8,11 +8,14 @@ import Gallery from './Pages/Gallery'
 
 const App = () => {
   return (
-    <div className='max-w-[90rem] mx-auto'>
+    <div className='w-full'>
       <HeroSection />
       <ProductSection />
       <About />
+      <div className='bg-[#EDF2EB]'>
+
       <Service/>
+      </div>
       <OrganicFood />
       <Gallery/>
     </div>
