@@ -84,7 +84,7 @@ const OrganicFood = () => {
               </div>
               <div className="flex justify-between items-center">
                 <h2>Absolute Quality</h2>
-                <h2>90%</h2>
+                <h2 className="pr-10">90%</h2>
               </div>
             </div>
           </div>

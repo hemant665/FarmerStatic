@@ -40,12 +40,12 @@ const ProductSection = () => {
               className="absolute w-[3.5rem] transition-all duration-500 group-hover:rotate-12 group-hover:scale-125 z-0 top-3 left-4"
             />
           </div>
-          <h2 className="text-xl mt-7 text-zinc-800 transition-all duration-500  group-hover:underline">
-            <span className="relative inline-block group-hover:after:scale-x-100 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-zinc-800 after:transform after:scale-x-0 after:origin-left after:transition-transform after:duration-500">
+          <h2 className="text-xl md:text-2xl mt-7 text-zinc-800 transition-all duration-500  group-hover:underline">
+            <span className="relative inline-block group-hover:after:scale-x-100 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-full after:bg-zinc-800 after:transform after:scale-x-0 after:origin-left after:transition-transform after:duration-500 ">
               {veg.title}
             </span>
           </h2>
-          <p className="text-zinc-600">{veg.desc}</p>
+          <p className="text-zinc-600 text-md md:text-lg">{veg.desc}</p>
         </div>
       ))}
     </div>
